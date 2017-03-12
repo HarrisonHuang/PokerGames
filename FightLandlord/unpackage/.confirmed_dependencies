@@ -1,0 +1,23 @@
+{
+  "index.html": {
+    "resources": [
+      "css/common.css",
+      "js/update.js",
+      "js/shortcut.js",
+      "js/immersed.js"
+    ],
+    "refer": [
+      "fightlandlord.html",
+      "plus/njs.html"
+    ]
+  },
+  "fightlandlord.html": {
+    "resources": [
+      "js/signalr.js",
+      "js/jquery-1.10.2.min.js",
+      "js/jquery.signalR-2.2.1.min.js",
+      "js/common.js",
+      "css/common.css"
+    ]
+  }
+}

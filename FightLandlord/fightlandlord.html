@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>斗地主</title>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.signalR-2.2.1.min.js"></script>
+		<script type="text/javascript" src="http://192.168.0.104/fightlandlord/signalr/hubs"></script>
+		<script type="text/javascript" src="js/signalr.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+		<script type="text/javascript">
+			function plusReady() {
+				plus.screen.lockOrientation("landscape");
+			}
+			if (window.plus) {
+				plusReady();
+			} else {
+				document.addEventListener("plusready", plusReady, false);
+			}
+		</script>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="nvbt iback" onclick="back(true);"></div>
+			<div class="nvtt">Camera</div>
+			<div class="nvbt idoc"></div>
+		</header>
+		<div id="dcontent" class="dcontent">
+
+		</div>
+		<div id="output">
+		</div>
+	</body>
+
+</html>
